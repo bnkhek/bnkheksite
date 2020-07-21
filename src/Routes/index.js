@@ -18,7 +18,7 @@ import { HashRouter, Route, Link, Switch } from "react-router-dom";
 export default () => (
   <HashRouter>
     <Switch>
-      <Route exact path="/App" component={App} />
+      <Route exact path="/" component={App} />
       <Route exact path="/About" component={About} />
     </Switch>
   </HashRouter>
