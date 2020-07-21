@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc8b7708f05da3916a4fc709bd4cab9e",
+    "revision": "a3d4fecea1b267f836842b26f80c6c6a",
     "url": "/bnkheksite/index.html"
   },
   {
-    "revision": "1d3efb6562900a3865df",
+    "revision": "8da8916bdfd02a486759",
     "url": "/bnkheksite/static/css/main.dc0a14bb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bnkheksite/static/js/2.71f032d6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1d3efb6562900a3865df",
-    "url": "/bnkheksite/static/js/main.4415b0b2.chunk.js"
+    "revision": "8da8916bdfd02a486759",
+    "url": "/bnkheksite/static/js/main.b29dde51.chunk.js"
   },
   {
     "revision": "71d801b4b50263fb47e3",
