@@ -15,7 +15,7 @@ function App() {
         >
           Learn React
         </a>
-        <Link to="/App">Go to Main Page!</Link>
+        <Link to="/">Go to Main Page!</Link>
       </header>
     </div>
   );
