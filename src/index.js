@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
 import App from "./Routes/App";
 import About from "./Routes/About";
 import Routes from "./Routes";
+import registerServiceWorker from "./registerServiceWorker";
 //import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 
