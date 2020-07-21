@@ -2,16 +2,39 @@
   text-align: center;
 }
 
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  opacity: 0;
+  margin-top: 30vh;
+  margin-bottom: 10vh;
+  animation-name: downArrow;
+  animation-fill-mode: forwards;
+  animation-duration: 2.2s;
+  animation-delay: 2.2s;
+}
+
 h1#name {
   position: relative;
-  font-size: 130px;
+  font-size: 10vw;
   color: white;
   animation-name: nameAnimation;
   animation-duration: 2.2s;
   animation-fill-mode: forwards;
 }
 
-.App-header {
+.navbar {
+  background-color: maroon;
+}
+
+.App-body {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,8 +45,8 @@ h1#name {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+div.page2 {
+  margin-top: 0vh;
 }
 
 @keyframes nameAnimation {
@@ -33,6 +56,15 @@ h1#name {
   }
   100% {
     left: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes downArrow {
+  from {
+    opacity: 0;
+  }
+  to {
     opacity: 1;
   }
 }
