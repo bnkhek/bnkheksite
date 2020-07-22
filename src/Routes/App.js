@@ -1,14 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
+import "./hamburger.css";
 import { Link } from "react-router-dom";
 import Slide from "react-reveal/Slide";
 
 function App() {
+  const [clicked, setClicked] = useState(false);
+
+  function menuClickHandler() {
+    console.log("Click");
+    setClicked(!clicked);
+  }
+
+  let menuStatus = clicked ? "open" : "closed";
+  let button_classes = clicked
+    ? "hamburger hamburger--collapse is-active"
+    : "hamburger hamburger--collapse ";
+
   return (
     <div className="App">
       <body className="App-body">
+        <button
+          onClick={menuClickHandler}
+          id="hamburger"
+          class={button_classes}
+          type="button"
+        >
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
+        <Slide left when={clicked}>
+          <Link to="/About">Go to About</Link>
+        </Slide>
+
         <h1 id="name">Brandon Khek.</h1>
-        <Link to="/About">Go to About</Link>
         <p>
           <i class="arrow down"></i>
         </p>

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
 .arrow {
@@ -21,6 +22,12 @@
   animation-delay: 2.2s;
 }
 
+button {
+  outline: none;
+  position: fixed;
+  z-index: 100;
+}
+
 h1#name {
   position: relative;
   font-size: 10vw;
@@ -30,8 +37,15 @@ h1#name {
   animation-fill-mode: forwards;
 }
 
+.menuContainer {
+  display: inline-block;
+  cursor: pointer;
+}
+
 .navbar {
-  background-color: maroon;
+  position: relative;
+  align-items: left;
+  justify-content: left;
 }
 
 .App-body {
