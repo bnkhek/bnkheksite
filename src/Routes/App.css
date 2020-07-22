@@ -3,6 +3,16 @@
   overflow-x: hidden;
 }
 
+p.route {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2vw;
+}
+
+a:link {
+  text-decoration: none;
+}
+
 .arrow {
   border: solid white;
   border-width: 0 3px 3px 0;
@@ -43,9 +53,25 @@ h1#name {
 }
 
 .navbar {
-  position: relative;
-  align-items: left;
-  justify-content: left;
+  display: flex;
+  z-index: 99;
+  flex-direction: row;
+  position: fixed;
+  align-items: center;
+  justify-content: space-around;
+  border-style: solid;
+  border-width: 3px;
+  border-top: white;
+  background-color: #282c34;
+  width: 100vw;
+  height: 10vh;
+  visibility: visible;
+  top: 0;
+}
+
+.navbar .hidden {
+  display: none;
+  top: -10vh;
 }
 
 .App-body {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import "./hamburger.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Slide from "react-reveal/Slide";
 
 function App() {
@@ -31,8 +31,12 @@ function App() {
           </span>
         </button>
 
-        <Slide left when={clicked}>
-          <Link to="/About">Go to About</Link>
+        <Slide top when={clicked}>
+          <div className={clicked ? "navbar" : "navbar hidden"}>
+            <NavLink to="/About">
+              <p className="route">About</p>
+            </NavLink>
+          </div>
         </Slide>
 
         <h1 id="name">Brandon Khek.</h1>
