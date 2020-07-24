@@ -44,7 +44,20 @@ h1#name {
   color: white;
   animation-name: nameAnimation;
   animation-duration: 2.2s;
+  animation-delay: 0.4s;
   animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+p.tagline {
+  position: relative;
+  color: white;
+  animation-name: taglineAnimation;
+  animation-duration: 2.2s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  align-self: flex-end;
 }
 
 .menuContainer {
@@ -85,13 +98,36 @@ h1#name {
   color: white;
 }
 
+div.page1 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
 div.page2 {
-  margin-top: 0vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 @keyframes nameAnimation {
   0% {
     left: -350px;
+    opacity: 0;
+  }
+  100% {
+    left: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes taglineAnimation {
+  0% {
+    left: 350px;
     opacity: 0;
   }
   100% {

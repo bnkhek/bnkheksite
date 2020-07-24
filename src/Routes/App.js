@@ -39,20 +39,25 @@ function App() {
           </div>
         </Slide>
 
-        <h1 id="name">Brandon Khek.</h1>
-        <p>
-          <i class="arrow down"></i>
-        </p>
+        <div className="page1">
+          <h1 id="name">Brandon Khek.</h1>
+          <p className="tagline">Astrophysics Student at Rice University</p>
+          <p>
+            <i class="arrow down"></i>
+          </p>
+        </div>
 
-        <Slide right>
-          <div className="page2">
-            <h2>As you can tell, I like making websites!</h2>
-            <p>
-              I actually made this one from scratch in React.js. Not bad for an
-              astrophysics major, eh?
-            </p>
-          </div>
-        </Slide>
+        <div className="page2">
+          <Slide right>
+            <div>
+              <h2>As you can tell, I like making websites!</h2>
+              <p>
+                I actually made this one from scratch in React.js. Not bad for
+                an astrophysics major, eh?
+              </p>
+            </div>
+          </Slide>
+        </div>
       </body>
     </div>
   );
