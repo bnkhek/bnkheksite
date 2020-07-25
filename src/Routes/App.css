@@ -1,12 +1,14 @@
 .App {
   text-align: center;
   overflow-x: hidden;
+  height: 100%;
 }
 
 p.route {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2vw;
+  margin: 5vw;
 }
 
 a:link {
@@ -44,9 +46,24 @@ h1#name {
   color: white;
   animation-name: nameAnimation;
   animation-duration: 2.2s;
-  animation-delay: 0.4s;
+  animation-delay: 0.85s;
   animation-fill-mode: forwards;
   opacity: 0;
+}
+
+div.parallax {
+  /* The image used */
+  background-image: url("https://image.shutterstock.com/z/stock-photo-class-room-612777398.jpg");
+
+  /* Full height */
+  height: 50%;
+  min-width: 100vw;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 p.tagline {
@@ -54,7 +71,7 @@ p.tagline {
   color: white;
   animation-name: taglineAnimation;
   animation-duration: 2.2s;
-  animation-delay: 0.4s;
+  animation-delay: 0.85s;
   animation-fill-mode: forwards;
   opacity: 0;
   align-self: flex-end;
@@ -71,7 +88,7 @@ p.tagline {
   flex-direction: row;
   position: fixed;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   border-style: solid;
   border-width: 3px;
   border-top: white;
@@ -90,10 +107,11 @@ p.tagline {
 .App-body {
   background-color: #282c34;
   min-height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }

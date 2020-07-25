@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import "./hamburger.css";
 import { NavLink } from "react-router-dom";
+import Navbar from "../Components/Navbar";
 import Slide from "react-reveal/Slide";
 
 function About() {
@@ -33,11 +34,14 @@ function About() {
 
         <Slide top when={clicked}>
           <div className={clicked ? "navbar" : "navbar hidden"}>
-            <NavLink to="/">
-              <p className="route">Home</p>
-            </NavLink>
+            <Navbar />
           </div>
         </Slide>
+
+        <div>
+          <h1>About Me</h1>
+          <p>(Outside of work!)</p>
+        </div>
 
         <p>I like to play tennis, chess, and skateboard.</p>
       </body>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import "./hamburger.css";
+import Navbar from "../Components/Navbar.js";
 import { NavLink } from "react-router-dom";
 import Slide from "react-reveal/Slide";
 
@@ -33,9 +34,7 @@ function App() {
 
         <Slide top when={clicked}>
           <div className={clicked ? "navbar" : "navbar hidden"}>
-            <NavLink to="/About">
-              <p className="route">About</p>
-            </NavLink>
+            <Navbar />
           </div>
         </Slide>
 
@@ -48,9 +47,14 @@ function App() {
         </div>
 
         <div className="page2">
+          <div class="parallax">
+            <p>This is me!</p>
+          </div>
+
           <Slide right>
             <div>
               <h2>As you can tell, I like making websites!</h2>
+
               <p>
                 I actually made this one from scratch in React.js. Not bad for
                 an astrophysics major, eh?

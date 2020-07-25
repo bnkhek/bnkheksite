@@ -1,13 +1,19 @@
 import React, { useState } from "react";
-import "./App.css";
+import "../Routes/App.css";
 import { NavLink } from "react-router-dom";
 
-function navbar() {
+function Navbar() {
   return (
-    <NavLink to="/About">
-      <p className="route">About</p>
-    </NavLink>
+    <div className="navbar">
+      <NavLink to="/">
+        <p className="route">Home</p>
+      </NavLink>
+
+      <NavLink to="/About">
+        <p className="route">About</p>
+      </NavLink>
+    </div>
   );
 }
 
-export default navbar;
+export default Navbar;
