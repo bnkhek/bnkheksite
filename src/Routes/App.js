@@ -48,19 +48,21 @@ function App() {
 
         <div className="page2">
           <div class="parallax">
-            <p>This is me!</p>
+            <p className="caption">
+              "Mock Bike" O-Week 2020 - I'm on the right!
+            </p>
           </div>
 
           <Slide right>
             <div>
-              <h2>As you can tell, I like making websites!</h2>
-
-              <p>
-                I actually made this one from scratch in React.js. Not bad for
-                an astrophysics major, eh?
-              </p>
+              <h2>Welcome to my website!</h2>
+              <p>I actually made this one from scratch in React.js.</p>
             </div>
           </Slide>
+          <Slide left>
+            <p>But enough about the site... who am I?</p>
+          </Slide>
+          <i class="arrow down"></i>
         </div>
       </body>
     </div>

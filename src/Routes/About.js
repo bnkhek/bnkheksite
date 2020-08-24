@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import "./hamburger.css";
 import { NavLink } from "react-router-dom";
-import Navbar from "../Components/Navbar";
+import Navbar from "../Components/Navbar.js";
 import Slide from "react-reveal/Slide";
 
 function About() {
