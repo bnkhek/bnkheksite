@@ -138,6 +138,27 @@ div.page2 {
   align-items: center;
   justify-content: space-between;
 }
+div.page3 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: left;
+  justify-content: space-between;
+}
+div.page4 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+}
+div.page5 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+}
 
 @keyframes nameAnimation {
   0% {
