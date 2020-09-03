@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/bnkheksite/static/css/main.934e16cc.chunk.css",
-    "main.js": "/bnkheksite/static/js/main.8662941f.chunk.js",
-    "main.js.map": "/bnkheksite/static/js/main.8662941f.chunk.js.map",
+    "main.css": "/bnkheksite/static/css/main.f54a400b.chunk.css",
+    "main.js": "/bnkheksite/static/js/main.3a458487.chunk.js",
+    "main.js.map": "/bnkheksite/static/js/main.3a458487.chunk.js.map",
     "runtime-main.js": "/bnkheksite/static/js/runtime-main.05fcbfb7.js",
     "runtime-main.js.map": "/bnkheksite/static/js/runtime-main.05fcbfb7.js.map",
     "static/js/2.c1ba9f18.chunk.js": "/bnkheksite/static/js/2.c1ba9f18.chunk.js",
     "static/js/2.c1ba9f18.chunk.js.map": "/bnkheksite/static/js/2.c1ba9f18.chunk.js.map",
     "index.html": "/bnkheksite/index.html",
-    "precache-manifest.e45d3415d2970669c353166b9621f1b1.js": "/bnkheksite/precache-manifest.e45d3415d2970669c353166b9621f1b1.js",
+    "precache-manifest.6db7bf7aa35b5067160784b44e62f9f8.js": "/bnkheksite/precache-manifest.6db7bf7aa35b5067160784b44e62f9f8.js",
     "service-worker.js": "/bnkheksite/service-worker.js",
-    "static/css/main.934e16cc.chunk.css.map": "/bnkheksite/static/css/main.934e16cc.chunk.css.map",
+    "static/css/main.f54a400b.chunk.css.map": "/bnkheksite/static/css/main.f54a400b.chunk.css.map",
     "static/js/2.c1ba9f18.chunk.js.LICENSE.txt": "/bnkheksite/static/js/2.c1ba9f18.chunk.js.LICENSE.txt",
     "static/media/App.css": "/bnkheksite/static/media/Mock Bike.4e0c8ad7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.05fcbfb7.js",
     "static/js/2.c1ba9f18.chunk.js",
-    "static/css/main.934e16cc.chunk.css",
-    "static/js/main.8662941f.chunk.js"
+    "static/css/main.f54a400b.chunk.css",
+    "static/js/main.3a458487.chunk.js"
   ]
 }
