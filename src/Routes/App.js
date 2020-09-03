@@ -53,16 +53,20 @@ function App() {
             </p>
           </div>
 
-          <Slide right>
-            <div>
-              <h2>Welcome to my website!</h2>
-              <p>I actually made this one from scratch in React.js.</p>
-            </div>
-          </Slide>
-          <Slide left>
-            <p>But enough about the site... who am I?</p>
-          </Slide>
-          <i class="arrow down"></i>
+          <div>
+            <Slide right>
+              <div>
+                <h2>Welcome to my website!</h2>
+                <p>I actually made this one from scratch in React.js.</p>
+              </div>
+            </Slide>
+            <Slide left>
+              <p>But enough about the site... who am I?</p>
+            </Slide>
+          </div>
+          <p>
+            <i class="arrow down"></i>
+          </p>
         </div>
       </body>
     </div>
