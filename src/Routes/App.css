@@ -123,39 +123,30 @@ p.tagline {
   color: white;
 }
 
-div.page1 {
+div.page {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 115vh;
+}
+
+div.page > div.page1 {
   align-items: center;
   justify-content: center;
 }
 
-div.page2 {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+div.page > div.page2 {
   align-items: center;
   justify-content: space-between;
 }
-div.page3 {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+div.page > div.page3 {
   align-items: left;
   justify-content: space-between;
 }
-div.page4 {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+div.page > div.page4 {
   align-items: center;
   justify-content: space-between;
 }
-div.page5 {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+div.page > div.page5 {
   align-items: center;
   justify-content: space-between;
 }

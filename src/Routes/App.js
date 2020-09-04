@@ -38,19 +38,17 @@ function App() {
           </div>
         </Slide>
 
-        <div className="page1">
+        <div className="page page1">
           <h1 id="name">Brandon Khek</h1>
           <p className="tagline">
             <strong>Astrophysics Student at Rice University</strong>
           </p>
-          <p className="tagline">Amateur skateboarder</p>
-          <p className="tagline">Chess enthusiast</p>
           <p>
             <i class="arrow down"></i>
           </p>
         </div>
 
-        <div className="page2">
+        <div className="page page2">
           <div class="parallax">
             <p className="caption">
               "Mock Bike" O-Week 2020 - I'm on the right!
@@ -73,17 +71,18 @@ function App() {
           </p>
         </div>
 
-        <div className="page3">
+        <div className="page page3">
           <h1>Teaching</h1>
 
           <p>Yuhh RCEL Elite Tech Camp</p>
           <p>Yuhh COLL</p>
+          <p>arroz splash</p>
           <p>
             <i class="arrow down"></i>
           </p>
         </div>
 
-        <div className="page4">
+        <div className="page page4">
           <h1>Research</h1>
           <p>Yuhh self-ordering scalar fields</p>
           <p>Yuhh something else</p>
@@ -92,7 +91,7 @@ function App() {
           </p>
         </div>
 
-        <div className="page5">
+        <div className="page page5">
           <h1>Outreach</h1>
           <p>Yuhh SpaceVision 2021</p>
           <p>Yuhh TEDxRice</p>
