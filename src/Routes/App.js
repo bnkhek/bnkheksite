@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import "./hamburger.css";
 import Navbar from "../Components/Navbar.js";
+import rcel from "../Images/Heart.png";
 import { NavLink } from "react-router-dom";
 import Slide from "react-reveal/Slide";
 
@@ -72,11 +73,36 @@ function App() {
         </div>
 
         <div className="page page3">
-          <h1>Teaching</h1>
+          <h1>
+            <strong>Teaching</strong>
+          </h1>
+          <h2>RCEL Elite Tech Camp</h2>
+          <img src={rcel} alt="RCEL Class Photo" height="500vh" />
+          <p>
+            Over the summer of 2020 I had the pleasure of teaching 28 high
+            school students machine learning in Python through RCEL - Rice
+            Center for Engineering Leadership - technology camp. We used anomaly
+            detection algorithms to analyze meteorological data! This is one of
+            our classes trying to make a heart.
+          </p>
+          <h2>COLL</h2>
+          <p>
+            COLL is a class code, short for COLLege course, which are
+            student-taught courses! After some training, Rice students can teach
+            a COLL course on anything they'd like, and I'm working on doing this
+            soon! Stay tuned for a syllabus :)
+          </p>
 
-          <p>Yuhh RCEL Elite Tech Camp</p>
-          <p>Yuhh COLL</p>
-          <p>arroz splash</p>
+          <h2>Rice Splash</h2>
+
+          <p>
+            There's a really cool organization on campus called Rice Splash, in
+            which students at Rice can teach middle/high school students about
+            any topic they want. I'm going to be teaching this fall about
+            multivariable calculus. Ambitious indeed, but I'm confident the
+            material can be simplified enough and still have them learn.
+          </p>
+
           <p>
             <i class="arrow down"></i>
           </p>
@@ -84,8 +110,24 @@ function App() {
 
         <div className="page page4">
           <h1>Research</h1>
-          <p>Yuhh self-ordering scalar fields</p>
-          <p>Yuhh something else</p>
+          <h2>Gravitational Waves from Self-Ordering Scalar Fields</h2>
+          <p>
+            I'm studying the gravitational wave energy density from
+            self-ordering scalar fields, particularly the Higgs field. Fancy
+            talk for saying that the Higgs field (associated with Higgs boson)
+            is inhomogeneous (isn't uniform) in space, and as it tries to relax,
+            or become homogeneous, it generates gravitational waves. Woah!
+          </p>
+
+          <h2>Some Other Research</h2>
+          <p>
+            Particle physics is suprisingly computational. To put it into
+            perspective, the Large Hardon Collider collected about 5 petabytes
+            of data when looking for the Higgs Boson. We need complex algorithms
+            to filter out this noise and give us the good stuff! I'm going to
+            explore the programming side of physics after I'm done with my
+            current project.
+          </p>
           <p>
             <i class="arrow down"></i>
           </p>
@@ -93,8 +135,19 @@ function App() {
 
         <div className="page page5">
           <h1>Outreach</h1>
-          <p>Yuhh SpaceVision 2021</p>
-          <p>Yuhh TEDxRice</p>
+          <h2>SpaceVision 2021</h2>
+          <p>
+            My co-chair and I won the SEDS (Students for the Exploration and
+            Development of Space) USA Chapter bid for SpaceVision 2021, one of
+            the largest student-run conferences in the world. We're working with
+            Space Center Houston (visitor center of the Johnson Space Center),
+            other SEDS Chapters, the national SEDS advisory board, and fellow
+            SEDS members to plan this event of 500+ people! The current 3 day
+            conference schedule includes topics ranging from intense
+            computational work to international space policy.
+          </p>
+          <h2>TEDxRice</h2>
+          <p>👀</p>
           <p>
             <i class="arrow down"></i>
           </p>

@@ -1,7 +1,20 @@
 .App {
   text-align: center;
-  overflow-x: hidden;
+  overflow: hidden;
   height: 100%;
+  background-color: #282c34;
+}
+
+.App-body {
+  background-color: #282c34;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 p.route {
@@ -54,10 +67,10 @@ h1#name {
 
 div.parallax {
   /* The image used */
-  background-image: url("../Images/Mock Bike.jpg");
+  background-image: url("../Images/Mock Bike Crop.jpg");
 
   /* Full height */
-  height: 50%;
+  height: 100%;
   min-width: 100vw;
 
   /* Create the parallax scrolling effect */
@@ -111,16 +124,10 @@ p.tagline {
   top: -10vh;
 }
 
-.App-body {
-  background-color: #282c34;
-  min-height: 100vh;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
-  color: white;
+div.page > p {
+  text-align: left;
+  padding: 2vw;
+  margin: 2vw;
 }
 
 div.page {
@@ -129,24 +136,28 @@ div.page {
   height: 115vh;
 }
 
-div.page > div.page1 {
+div.page1 {
   align-items: center;
   justify-content: center;
 }
 
-div.page > div.page2 {
+div.page2 {
   align-items: center;
   justify-content: space-between;
 }
-div.page > div.page3 {
-  align-items: left;
-  justify-content: space-between;
+
+div.page3 {
+  align-items: center;
+  justify-content: flex-start;
+  height: 210vh;
 }
-div.page > div.page4 {
+
+div.page4 {
   align-items: center;
   justify-content: space-between;
 }
-div.page > div.page5 {
+
+div.page5 {
   align-items: center;
   justify-content: space-between;
 }
