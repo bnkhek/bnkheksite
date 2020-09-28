@@ -152,6 +152,34 @@ function App() {
             <i class="arrow down"></i>
           </p>
         </div>
+
+        <div className="page page6">
+          <p>
+            Okay, with all of this, you might be wondering, "With all of this
+            space and physics stuff why does he want to intern as a software
+            engineer?" Great question! Solely because of
+          </p>
+
+          <h2>RiceApps Open Source Accelerator</h2>
+          <p>
+            Basically, RiceApps OSA was a 2 and a half-ish month program in
+            summer 2020. I was paired up with a recent Rice grad (also my
+            referral to FB, thanks Tam!) and two other students. More can be
+            found on my LinkedIn.
+          </p>
+          <p>
+            Bottom line, this experience showed me the{" "}
+            <strong>aesthetic</strong> side to programming, i.e. this website.
+            This was something I never got in my years of classroom coding
+            experience. It was always Java, Pyton, or MATLAB, but never
+            front-end development! I wouldn't say OSA rekindled a desire to code
+            - I've always enjoyed it since my first class in high school.
+            Rather, it gave me perspective to an area of programming that I've
+            never been exposed to up until that point. Front-end development is
+            a (very) recent discovery for me, and because of this, I want to see
+            how much more I can do, perhaps as an intern over the summer!
+          </p>
+        </div>
       </body>
     </div>
   );

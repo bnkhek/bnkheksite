@@ -162,6 +162,11 @@ div.page5 {
   justify-content: space-between;
 }
 
+div.page6 {
+  align-items: center;
+  justify-content: space-between;
+}
+
 @keyframes nameAnimation {
   0% {
     left: -350px;
