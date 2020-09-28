@@ -169,15 +169,20 @@ function App() {
           </p>
           <p>
             Bottom line, this experience showed me the{" "}
-            <strong>aesthetic</strong> side to programming, i.e. this website.
-            This was something I never got in my years of classroom coding
-            experience. It was always Java, Pyton, or MATLAB, but never
-            front-end development! I wouldn't say OSA rekindled a desire to code
-            - I've always enjoyed it since my first class in high school.
-            Rather, it gave me perspective to an area of programming that I've
-            never been exposed to up until that point. Front-end development is
-            a (very) recent discovery for me, and because of this, I want to see
-            how much more I can do, perhaps as an intern over the summer!
+            <strong>aesthetic</strong> side to programming, giving me the tools
+            to develop this website after having absolutely no experience with
+            web development. This was something I never got in my years of
+            classroom coding experience. It was always Java, Pyton, or MATLAB,
+            but never front-end development! I wouldn't say OSA rekindled a
+            desire to code - I've always enjoyed it since my first class in high
+            school. Rather, it gave me perspective to an area of programming
+            that I've never been exposed to up until that point. Front-end
+            development is a (very) recent discovery for me, and because of
+            this, I want to see how much more I can do, perhaps as an intern
+            over the summer! I'm interested in seeing if such a hobby could turn
+            into a career, and given my great (but short) experience with OSA,
+            I'm very open minded and willing to see what else this path has to
+            offer.
           </p>
         </div>
       </body>
