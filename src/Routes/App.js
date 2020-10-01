@@ -77,14 +77,16 @@ function App() {
             <strong>Teaching</strong>
           </h1>
           <h2>RCEL Elite Tech Camp</h2>
-          <img src={rcel} alt="RCEL Class Photo" height="500vh" />
-          <p>
-            Over the summer of 2020 I had the pleasure of teaching 28 high
-            school students machine learning in Python through RCEL - Rice
-            Center for Engineering Leadership - technology camp. We used anomaly
-            detection algorithms to analyze meteorological data! This is one of
-            our classes trying to make a heart.
-          </p>
+          <div className="contentDetail">
+            <img src={rcel} alt="RCEL Class Photo" width="90%" />
+            <p className="contentDetail">
+              Over the summer of 2020 I had the pleasure of teaching 28 high
+              school students machine learning in Python through RCEL - Rice
+              Center for Engineering Leadership - technology camp. We used
+              anomaly detection algorithms to analyze meteorological data! This
+              is one of our classes trying to make a heart.
+            </p>
+          </div>
           <h2>COLL</h2>
           <p>
             COLL is a class code, short for COLLege course, which are
@@ -111,13 +113,26 @@ function App() {
         <div className="page page4">
           <h1>Research</h1>
           <h2>Gravitational Waves from Self-Ordering Scalar Fields</h2>
-          <p>
-            I'm studying the gravitational wave energy density from
-            self-ordering scalar fields, particularly the Higgs field. Fancy
-            talk for saying that the Higgs field (associated with Higgs boson)
-            is inhomogeneous (isn't uniform) in space, and as it tries to relax,
-            or become homogeneous, it generates gravitational waves. Woah!
-          </p>
+          <div className="contentDetail">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Mexican_hat_potential_polar.svg/1280px-Mexican_hat_potential_polar.svg.png"
+              alt="Higgs Mexican Hat Potential"
+              id="higgs"
+            />
+
+            <p className="contentDetail">
+              I'm studying the gravitational wave energy density from
+              self-ordering scalar fields, particularly the Higgs field. Fancy
+              talk for saying that the Higgs field (associated with Higgs boson)
+              is inhomogeneous (isn't uniform) in space, and as it tries to
+              relax, or become homogeneous, it generates gravitational waves.
+              Woah! To the left is a picture of the{" "}
+              <a href="https://en.wikipedia.org/wiki/Spontaneous_symmetry_breaking">
+                Higgs Mexican Hat potential.{" "}
+              </a>
+              Hover your mouse over it!
+            </p>
+          </div>
 
           <h2>Some Other Research</h2>
           <p>
