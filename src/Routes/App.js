@@ -201,16 +201,15 @@ function App() {
         <div className="page page6">
           <p>
             Okay, with all of this, you might be wondering, "With all of this
-            space and physics stuff why does he want to intern as a software
-            engineer?" Great question! Solely because of
+            space and physics stuff why does he want to intern at FB?" Great
+            question! Solely because of
           </p>
 
           <h2>RiceApps Open Source Accelerator</h2>
           <p>
             RiceApps OSA was a 2 and a half-ish month program in summer 2020. I
-            was paired up with a recent Rice grad (also my referral to FB,
-            thanks Tam!) and two other students. More can be found on my
-            LinkedIn.
+            was paired up with a recent Rice grad (also my referral, thanks
+            Tam!) and two other students. More can be found on my LinkedIn.
           </p>
           <p>
             Bottom line, this experience showed me the{" "}
