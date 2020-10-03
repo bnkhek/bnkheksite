@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bnkheksite/static/css/main.fd906fe6.chunk.css",
-    "main.js": "/bnkheksite/static/js/main.889d4f5e.chunk.js",
-    "main.js.map": "/bnkheksite/static/js/main.889d4f5e.chunk.js.map",
+    "main.js": "/bnkheksite/static/js/main.d2b81058.chunk.js",
+    "main.js.map": "/bnkheksite/static/js/main.d2b81058.chunk.js.map",
     "runtime-main.js": "/bnkheksite/static/js/runtime-main.05fcbfb7.js",
     "runtime-main.js.map": "/bnkheksite/static/js/runtime-main.05fcbfb7.js.map",
     "static/js/2.770618aa.chunk.js": "/bnkheksite/static/js/2.770618aa.chunk.js",
     "static/js/2.770618aa.chunk.js.map": "/bnkheksite/static/js/2.770618aa.chunk.js.map",
     "index.html": "/bnkheksite/index.html",
-    "precache-manifest.d0c0b37a63bfcd179f0d1e199b2d2da5.js": "/bnkheksite/precache-manifest.d0c0b37a63bfcd179f0d1e199b2d2da5.js",
+    "precache-manifest.051705e84259fd48e26bfe58e0a0ba82.js": "/bnkheksite/precache-manifest.051705e84259fd48e26bfe58e0a0ba82.js",
     "service-worker.js": "/bnkheksite/service-worker.js",
     "static/css/main.fd906fe6.chunk.css.map": "/bnkheksite/static/css/main.fd906fe6.chunk.css.map",
     "static/js/2.770618aa.chunk.js.LICENSE.txt": "/bnkheksite/static/js/2.770618aa.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.05fcbfb7.js",
     "static/js/2.770618aa.chunk.js",
     "static/css/main.fd906fe6.chunk.css",
-    "static/js/main.889d4f5e.chunk.js"
+    "static/js/main.d2b81058.chunk.js"
   ]
 }
