@@ -81,9 +81,12 @@ div.parallax {
 }
 
 img {
-  margin: 4%;
+  width: 100%;
   margin-right: 0;
   max-height: 100%;
+  max-width: 100%;
+  margin-right: 0;
+  padding-right: 0;
 }
 
 p.caption {
@@ -156,18 +159,19 @@ div.page2 {
 div.page3 {
   align-items: center;
   justify-content: flex-start;
-  height: 210vh;
+  height: 250vh;
 }
 
 div.page4 {
   align-items: center;
-  height: 150vh;
-  justify-content: space-between;
+  height: 210vh;
+  justify-content: flex-start;
 }
 
 div.page5 {
   align-items: center;
   justify-content: space-between;
+  height: 100vh;
 }
 
 div.page6 {
@@ -180,19 +184,21 @@ div.contentDetail {
   grid-template-columns: 50% 50%;
   justify-content: space-around;
   align-items: flex-start;
-  margin: 1%;
-  padding: 2%;
+  margin: 4%;
+  padding: 0.5%;
   max-height: 50%;
+  background-color: gray;
 }
 
 p.contentDetail {
   margin-bottom: 2%;
   margin-left: 0;
+  padding: 2.5%;
 }
 
 #higgs {
   padding: 8px;
-  height: 100%;
+  width: 100%;
   transition: width 2s, height 2s, transform 2s;
   justify-self: center;
 }
