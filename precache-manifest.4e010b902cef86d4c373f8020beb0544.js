@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "38d85ea82b558b08de977fd4480cb329",
+    "revision": "f8a0532c5f46473e7d319d1baeea80f2",
     "url": "/bnkheksite/index.html"
   },
   {
-    "revision": "2ddec6d657024d20f4af",
-    "url": "/bnkheksite/static/css/main.fd906fe6.chunk.css"
+    "revision": "c84deab80e3e8db9502c",
+    "url": "/bnkheksite/static/css/main.22e7a230.chunk.css"
   },
   {
-    "revision": "035b1184f1a535969882",
-    "url": "/bnkheksite/static/js/2.770618aa.chunk.js"
+    "revision": "6ea47b23ef0265d261c9",
+    "url": "/bnkheksite/static/js/2.384f63bd.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/bnkheksite/static/js/2.770618aa.chunk.js.LICENSE.txt"
+    "url": "/bnkheksite/static/js/2.384f63bd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2ddec6d657024d20f4af",
-    "url": "/bnkheksite/static/js/main.62f466ea.chunk.js"
+    "revision": "c84deab80e3e8db9502c",
+    "url": "/bnkheksite/static/js/main.32d60451.chunk.js"
   },
   {
     "revision": "71d801b4b50263fb47e3",
