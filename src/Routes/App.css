@@ -56,13 +56,14 @@ button {
 
 h1#name {
   position: relative;
-  font-size: 10vw;
+  font-size: 6vw;
   color: white;
   animation-name: nameAnimation;
   animation-duration: 2.2s;
   animation-delay: 0.85s;
   animation-fill-mode: forwards;
   opacity: 0;
+  align-self: center;
 }
 
 div.parallax {
@@ -103,7 +104,7 @@ p.tagline {
   animation-delay: 0.85s;
   animation-fill-mode: forwards;
   opacity: 0;
-  align-self: flex-end;
+  align-self: flex-start;
 }
 
 .menuContainer {
@@ -160,6 +161,9 @@ div.page3 {
   align-items: center;
   justify-content: flex-start;
   height: 250vh;
+  background-color: rgb(105, 105, 105);
+  border-style: solid;
+  border-color: black;
 }
 
 div.page4 {
@@ -172,6 +176,9 @@ div.page5 {
   align-items: center;
   justify-content: space-between;
   height: 100vh;
+  background-color: rgb(105, 105, 105);
+  border-style: solid;
+  border-color: black;
 }
 
 div.page6 {
@@ -179,20 +186,37 @@ div.page6 {
   justify-content: space-between;
 }
 
-div.contentDetail {
+div.contentDetailDark {
   display: grid;
   grid-template-columns: 50% 50%;
   justify-content: space-around;
   align-items: flex-start;
   margin: 4%;
-  padding: 0.5%;
+  padding: 2%;
   max-height: 50%;
-  background-color: gray;
+  background-color: rgb(80, 80, 80);
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
 }
 
-p.contentDetail {
+div.contentDetailLight {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 4%;
+  padding: 2%;
+  max-height: 50%;
+  background-color: rgb(105, 105, 105);
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+
+.contentDetail {
   margin-bottom: 2%;
-  margin-left: 0;
+  margin-right: 5%;
   padding: 2.5%;
 }
 
@@ -209,6 +233,20 @@ p.contentDetail {
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+}
+
+.divider {
+  width: 10%;
+  height: 5px;
+  background-color: white;
+  margin-left: 0px;
+}
+
+.pageHeader {
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 @keyframes nameAnimation {
