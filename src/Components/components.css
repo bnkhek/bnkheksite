@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  z-index: 99;
+  flex-direction: row;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 3px;
+  border-top: white;
+  background-color: #282c34;
+  width: 100vw;
+  height: 10vh;
+  visibility: visible;
+  top: 0;
+}
+
+p.route {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2vw;
+  margin: 5vw;
+}
+
+div.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 12vh;
+  background-color: sandybrown;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-bar {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: flex-start;
+}
+
+.linkedin {
+  color: white;
+  margin-right: 1%;
+}
+
+.facebook {
+  color: white;
+  margin-right: 1%;
+  margin-left: 1%;
+}
