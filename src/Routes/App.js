@@ -51,7 +51,7 @@ function App() {
             <strong>Astrophysics Student at Rice University</strong>
           </p>
 
-          <Jump delay = {1800} count = {3}>
+          <Jump delay = {1800} count = {4}>
           <p>
             <i class="arrow down"></i>
           </p>
@@ -102,7 +102,7 @@ function App() {
           </div>
 
           <div id = "TeachingContent">
-          <div className="contentDetailDark">
+          <div className="contentDetailBox" style = {{backgroundColor: "#3bab87"}}>
             <div>
               <h2>RCEL Elite Tech Camp</h2>
               <p>
@@ -118,7 +118,7 @@ function App() {
             <img src={rcel} alt="RCEL Class Photo" width="90%" />
           </div>
 
-          <div className="contentDetailDark">
+          <div className="contentDetailBox" style = {{backgroundColor: "#224a54"}}>
             <p></p>
             <div>
             <h2>COLL</h2>
@@ -131,7 +131,7 @@ function App() {
             </div>
           </div>
 
-          <div className="contentDetailDark">
+          <div className="contentDetailBox" style = {{backgroundColor: "#1a1a1a"}}>
 
             <div>
             <h2>Rice Splash</h2>
@@ -163,7 +163,7 @@ function App() {
               astrophysics.
             </p>
           </div>
-          <div className="contentDetailLight">
+          <div className="contentDetailBox" style = {{backgroundColor: "#c1605c"}}>
             <div>
               <h2 className="contentDetail">
                 Gravitational Waves from Self-Ordering Scalar Fields
@@ -192,7 +192,19 @@ function App() {
               id="higgs"
             />
           </div>
-          <div className="contentDetailLight">
+          <div className="contentDetailBoxMini" style = {{backgroundColor: "#98bec8"}}>
+            <h2>Some Other Research</h2>
+            <p>
+              Particle physics is suprisingly computational. To put it into
+              perspective, the Large Hardon Collider collected about 5 petabytes
+              of data when looking for the Higgs Boson. We need complex
+              algorithms to filter out this noise and give us the good stuff!
+              I'm going to explore the programming side of physics after I'm
+              done with my current project.
+            </p>
+          </div>
+
+          <div className="contentDetailBoxMini" style = {{backgroundColor: "#FDF0EC", color: "black"}}>
             <h2>Some Other Research</h2>
             <p>
               Particle physics is suprisingly computational. To put it into
@@ -216,7 +228,7 @@ function App() {
               variety of outreach activities.
             </p>
           </div>
-          <div className="contentDetailDark">
+          <div className="contentDetailBox">
             <h2>SpaceVision 2021</h2>
             <p>
               My co-chair and I won the SEDS (Students for the Exploration and

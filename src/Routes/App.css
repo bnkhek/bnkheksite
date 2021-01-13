@@ -30,7 +30,7 @@ a:link {
 
 .arrow {
   border: solid white;
-  border-width: 0 3px 3px 0;
+  border-width: 0 5px 5px 0;
   display: inline-block;
   padding: 3px;
 }
@@ -60,7 +60,7 @@ iframe {
 }
 
 p {
-  font-size: 87.5%;
+  font-size: 80%;
 }
 
 a:link {
@@ -92,7 +92,6 @@ h1#name {
   animation-fill-mode: forwards;
   opacity: 0;
   align-self: center;
-  z-index: 99;
 }
 
 div.parallax {
@@ -178,14 +177,20 @@ div.page {
   display: flex;
   flex-direction: column;
   height: 115vh;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 div.page1 {
   align-items: center;
   justify-content: center;
   width: 100vw;
+
+  background-image: url("../Images/Hubble\ UDF.jpg");
+
+  /* Full height */
+  height: 100vh;
+  min-width: 100vw;
 }
 
 div.page2 {
@@ -195,10 +200,12 @@ div.page2 {
 }
 
 div.page3 {
+  display: flex;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: flex-start;
-  height: 250vh;
-  background-color: rgb(201, 201, 201);
+  height: 230vh;
+  background-color: #fefbf5;
   color: black;
 }
 
@@ -206,16 +213,18 @@ div#TeachingContent {
 }
 
 div.page4 {
+  display: flex;
+  flex-flow: row wrap;
   align-items: center;
-  height: 210vh;
+  height: 230vh;
   justify-content: flex-start;
 }
 
 div.page5 {
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 100vh;
-  background-color: rgb(201, 201, 201);
+  background-color: #fefbf5;
   border-style: solid;
   border-color: black;
   color: black;
@@ -232,18 +241,43 @@ div.page7 {
   height: 100vh;
 }
 
-div.contentDetailDark {
+div.contentDetailBox {
   display: grid;
   grid-template-columns: 50% 50%;
   justify-content: space-around;
   align-items: flex-start;
-  margin: 4%;
-  padding: 2%;
+  padding: 3.5%;
   background-color: #282c34;
   color: white;
-  border-style: solid;
-  border-color: black;
-  border-width: 3px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+div.contentDetailBoxMini {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 42.5%;
+  padding: 3.5%;
+  background-color: #282c34;
+  color: white;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+div.contentDetailBox:hover {
+  padding-left: 5%;
+  cursor: pointer;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+div.contentDetailBoxMini:hover {
+  padding-bottom: 5%;
+  cursor: pointer;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
 }
 
 div.contentDetailLight {
