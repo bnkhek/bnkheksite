@@ -40,13 +40,20 @@ function About() {
 
         <div>
           <h1>About Me</h1>
-          <p>(Outside of work!)</p>
         </div>
 
+        <h2>
+          Hobbies
+        </h2>
         <p>
-          I like to play tennis, chess, and skateboard. (Work in progress
-          section...)
+          I like to play tennis, chess, and dance. Here's a short dance video I made if you'd like to see! 
         </p>
+
+        <iframe src='https://www.youtube.com/embed/U-dOtTErPpo'
+        frameborder='0'
+        allow='autoplay; encrypted-media'
+        allowfullscreen
+        title='video'/>
 
         <h1>About the Site</h1>
         <p className="contentDetail">

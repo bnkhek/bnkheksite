@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import "./App.css";
 import "./hamburger.css";
+import "../Components/components.css";
 import Navbar from "../Components/Navbar.js";
 import rcel from "../Images/Heart.png";
 import { NavLink } from "react-router-dom";
 import Slide from "react-reveal/Slide";
-import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
+import Jump from "react-reveal/Jump";
+import Footer from "../Components/Footer.js";
 
 function App() {
   const [clicked, setClicked] = useState(false);
@@ -41,36 +44,41 @@ function App() {
         </Slide>
 
         <div className="page page1">
+          <div>
           <h1 id="name">Brandon Khek</h1>
+          </div>
           <p className="tagline">
             <strong>Astrophysics Student at Rice University</strong>
           </p>
-          <p className="tagline">
-            Undergraduate researcher interested in early and late universe
-            cosmology, astroparticle physics, and compact objects.
-          </p>
+
+          <Jump delay = {1800} count = {3}>
           <p>
             <i class="arrow down"></i>
           </p>
+          </Jump>
         </div>
 
         <div className="page page2">
           <div class="parallax">
-            <p className="caption">
-              "Mock Bike" O-Week 2020 - I'm on the right!
+            <p id="paraCaption">
+               O-Week 2020
+            </p>
+            <p id="paraCaptionMe">
+            ↙ Me
             </p>
           </div>
 
           <div>
-            <Slide right>
+            <Zoom cascade>
               <div>
-                <h2>Welcome to my website!</h2>
-                <p>I actually made this one from scratch in React.js.</p>
+                <h2>About Me</h2>
+
+                <p>I am a sophomore undergraduate student interested in early and late universe
+                cosmology, astroparticle physics, and compact objects.</p>
+
+                <p>I made this website from scratch with React.js!</p>
               </div>
-            </Slide>
-            <Slide left>
-              <p>But enough about the site... what do I do?</p>
-            </Slide>
+            </Zoom>
           </div>
           <p>
             <i class="arrow down"></i>
@@ -82,7 +90,7 @@ function App() {
             <h1>
               <strong>Teaching</strong>
             </h1>
-            <hr className="divider"></hr>
+            <hr className="divider dark"></hr>
             <p>
               Coming into Rice, I was very uncertain with what I wanted to
               explore in college. The guidance of countless students, mentors,
@@ -93,6 +101,7 @@ function App() {
             </p>
           </div>
 
+          <div id = "TeachingContent">
           <div className="contentDetailDark">
             <div>
               <h2>RCEL Elite Tech Camp</h2>
@@ -110,6 +119,8 @@ function App() {
           </div>
 
           <div className="contentDetailDark">
+            <p></p>
+            <div>
             <h2>COLL</h2>
             <p>
               COLL is a class code, short for COLLege course, which are
@@ -117,9 +128,12 @@ function App() {
               students can teach a COLL course on anything they'd like, and I'm
               working on doing this soon! Stay tuned for a syllabus.
             </p>
+            </div>
           </div>
 
           <div className="contentDetailDark">
+
+            <div>
             <h2>Rice Splash</h2>
 
             <p>
@@ -130,10 +144,10 @@ function App() {
               Ambitious, but I'm confident the material can be simplified enough
               and still be beneficial.
             </p>
+            </div>
           </div>
-          <p>
-            <i class="arrow down"></i>
-          </p>
+
+          </div>
         </div>
 
         <div className="page page4">
@@ -149,7 +163,7 @@ function App() {
               astrophysics.
             </p>
           </div>
-          <div className="contentDetailDark">
+          <div className="contentDetailLight">
             <div>
               <h2 className="contentDetail">
                 Gravitational Waves from Self-Ordering Scalar Fields
@@ -161,8 +175,8 @@ function App() {
                 boson) is inhomogeneous (isn't uniform) in space, and as it
                 tries to relax, or become homogeneous, it generates
                 gravitational waves. Woah! To the left is a picture of the{" "}
-                <a href="https://en.wikipedia.org/wiki/Spontaneous_symmetry_breaking">
-                  Higgs Mexican Hat potential.{" "}
+                <a href="https://en.wikipedia.org/wiki/Spontaneous_symmetry_breaking" target= "_blank">
+                  Higgs wine bottle potential.{" "}
                 </a>
               </p>
               <p className="contentDetail">
@@ -178,7 +192,7 @@ function App() {
               id="higgs"
             />
           </div>
-          <div className="contentDetailDark">
+          <div className="contentDetailLight">
             <h2>Some Other Research</h2>
             <p>
               Particle physics is suprisingly computational. To put it into
@@ -189,15 +203,13 @@ function App() {
               done with my current project.
             </p>
           </div>
-          <p>
-            <i class="arrow down"></i>
-          </p>
+
         </div>
 
         <div className="page page5">
           <div className="pageHeader">
             <h1>Outreach</h1>
-            <hr className="divider"></hr>
+            <hr className="divider dark"></hr>
             <p>
               I enjoy connecting with a wide audience and facilitating
               opportunities to students. As a result, I have involved myself a
@@ -229,9 +241,40 @@ function App() {
             best to explain pop science physics more rigorously but still fun.
           </p>
           */}
-          <p>
-            <i class="arrow down"></i>
-          </p>
+
+        </div>
+
+
+        <div className="page page7">
+        <div className="pageHeader">
+            <h1>Contact</h1>
+            <hr className="divider"></hr>
+            <a id = "email" href = "mailto:brandon.n.khek@rice.edu"><strong>brandon.n.khek@rice.edu</strong></a>
+            <p>
+              I love to meet new people. Let me know what you think of my website or if you're interested in collaborative research.
+            </p>
+            <br></br>
+            <p>Brandon Khek</p>
+            <p>1605 Rice Blvd. • Houston, TX 77005</p>
+
+            <div class="icon-bar">
+
+            <link
+              rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            ></link>
+
+            <a href="https://www.linkedin.com/in/brandon-khek-5b5b5116a/" target= "_blank" class="linkedin">
+              <i class="fa fa-linkedin"></i>
+            </a>
+
+            <a href="https://www.facebook.com/Rice.Physics.Astronomy"  target= "_blank" class="facebook">
+              <i class="fa fa-facebook-square"></i>
+            </a>
+          </div>
+
+          </div>
+
         </div>
       </body>
     </div>
