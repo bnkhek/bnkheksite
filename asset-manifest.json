@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bnkheksite/static/css/main.f2470bb4.chunk.css",
-    "main.js": "/bnkheksite/static/js/main.f9ab4103.chunk.js",
-    "main.js.map": "/bnkheksite/static/js/main.f9ab4103.chunk.js.map",
+    "main.css": "/bnkheksite/static/css/main.a60c4764.chunk.css",
+    "main.js": "/bnkheksite/static/js/main.89858ef0.chunk.js",
+    "main.js.map": "/bnkheksite/static/js/main.89858ef0.chunk.js.map",
     "runtime-main.js": "/bnkheksite/static/js/runtime-main.05fcbfb7.js",
     "runtime-main.js.map": "/bnkheksite/static/js/runtime-main.05fcbfb7.js.map",
     "static/js/2.cb6a53ab.chunk.js": "/bnkheksite/static/js/2.cb6a53ab.chunk.js",
     "static/js/2.cb6a53ab.chunk.js.map": "/bnkheksite/static/js/2.cb6a53ab.chunk.js.map",
     "index.html": "/bnkheksite/index.html",
-    "precache-manifest.debc5865d98f78ddcdfb17b695aeacea.js": "/bnkheksite/precache-manifest.debc5865d98f78ddcdfb17b695aeacea.js",
+    "precache-manifest.03e9bebb01cf58f14e402e823c6ca5ca.js": "/bnkheksite/precache-manifest.03e9bebb01cf58f14e402e823c6ca5ca.js",
     "service-worker.js": "/bnkheksite/service-worker.js",
-    "static/css/main.f2470bb4.chunk.css.map": "/bnkheksite/static/css/main.f2470bb4.chunk.css.map",
+    "static/css/main.a60c4764.chunk.css.map": "/bnkheksite/static/css/main.a60c4764.chunk.css.map",
     "static/js/2.cb6a53ab.chunk.js.LICENSE.txt": "/bnkheksite/static/js/2.cb6a53ab.chunk.js.LICENSE.txt",
     "static/media/Heart.png": "/bnkheksite/static/media/Heart.6db629af.png",
     "static/media/App.css": "/bnkheksite/static/media/Mock Bike Crop.5de9fcf9.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.05fcbfb7.js",
     "static/js/2.cb6a53ab.chunk.js",
-    "static/css/main.f2470bb4.chunk.css",
-    "static/js/main.f9ab4103.chunk.js"
+    "static/css/main.a60c4764.chunk.css",
+    "static/js/main.89858ef0.chunk.js"
   ]
 }
